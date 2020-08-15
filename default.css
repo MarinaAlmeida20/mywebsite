@@ -10,6 +10,7 @@
     --themeDotBorder:#24292e;
 
     --previewBg:rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
 }
 
 html, body{
@@ -204,6 +205,10 @@ h6 { font-size: 16px;}
     grid-area: right-column;
     display: grid;
     align-content: center;
+}
+
+#preview-shadow{
+    background-color: var(--previewShadow);
 }
 
 #preview{
